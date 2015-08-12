@@ -1,0 +1,187 @@
+# Copyright (C) 2015 YIThemes
+# This file is distributed under the same license as the YITH Plugin Starter package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Badge Management\n"
+"Report-Msgid-Bugs-To: Your Inspiration Themes <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2015-08-04 11:56+0200\n"
+"PO-Revision-Date: 2015-06-19 17:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <info@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: class.yith-wcbep-admin.php:190
+#, php-format
+msgid "%s product edited"
+msgid_plural "%s products edited"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class.yith-wcbep-admin.php:210
+msgid "Settings"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:232
+msgid "Plugin Documentation"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:253 class.yith-wcbep-admin.php:262
+#: class.yith-wcbep-admin.php:263
+msgid "Bulk Product Editing"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:317
+msgid "YIT Plugins"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:325
+msgid "No Product Selected: to make a bulk edit, select one or more products"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:326
+msgid "- - - Empty - - -"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:327
+msgid "file"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:328
+msgid "files"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:329
+msgid "This field is not editable because this is a variation!"
+msgstr ""
+
+#: class.yith-wcbep-admin.php:330
+msgid ""
+"This field is not editable for now! Please save before try to edit this field."
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:48
+msgid "ID"
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:49
+msgid "Title"
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:50 templates/main-tab.php:40
+#: templates/main-tab.php:102
+msgid "Regular Price"
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:51 templates/main-tab.php:55
+#: templates/main-tab.php:117
+msgid "Sale Price"
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:52
+msgid "Categories"
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:53
+msgid "Date"
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:288
+msgid "Select All"
+msgstr ""
+
+#: includes/class.yith-wcbep-list-table.php:376
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: init.php:43
+msgid ""
+"YITH WooCommerce Bulk Product Editing is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: init.php:52
+msgid ""
+"You can't activate the free version of YITH WooCommerce Bulk Product Editing while "
+"you are using the premium one."
+msgstr ""
+
+#: templates/main-tab.php:6
+msgid "Filters"
+msgstr ""
+
+#: templates/main-tab.php:22
+msgid "Filter Categories"
+msgstr ""
+
+#: templates/main-tab.php:70
+msgid "Products per page"
+msgstr ""
+
+#: templates/main-tab.php:77
+msgid "Get products"
+msgstr ""
+
+#: templates/main-tab.php:78
+msgid "Reset filters"
+msgstr ""
+
+#: templates/main-tab.php:82
+msgid "Products"
+msgstr ""
+
+#: templates/main-tab.php:83
+msgid "Save"
+msgstr ""
+
+#: templates/main-tab.php:84 templates/main-tab.php:98
+msgid "Bulk editing"
+msgstr ""
+
+#: templates/main-tab.php:106 templates/main-tab.php:121
+msgid "Set new"
+msgstr ""
+
+#: templates/main-tab.php:107 templates/main-tab.php:122
+msgid "Increase by value"
+msgstr ""
+
+#: templates/main-tab.php:108 templates/main-tab.php:123
+msgid "Decrease by value"
+msgstr ""
+
+#: templates/main-tab.php:109 templates/main-tab.php:124
+msgid "Increase by percentage"
+msgstr ""
+
+#: templates/main-tab.php:110 templates/main-tab.php:125
+msgid "Decrease by percentage"
+msgstr ""
+
+#: templates/main-tab.php:126
+msgid "Delete"
+msgstr ""
+
+#: templates/main-tab.php:134
+msgid "Apply"
+msgstr ""
+
+#: templates/main-tab.php:135
+msgid "Cancel"
+msgstr ""
