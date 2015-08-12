@@ -47,7 +47,8 @@ jQuery(function($){
                                                 }
                                             },
 
-        custom_input_hide                   = function(hide = false){
+        custom_input_hide                   = function(hide){
+                                                hide = hide || false;
                                                 if (hide) {
                                                     custom_input.hide();
                                                 }
