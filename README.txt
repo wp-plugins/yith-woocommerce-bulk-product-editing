@@ -4,7 +4,7 @@ Contributors: yithemes
 Tags: bulk product editing, bulk edit product, product bulk edit, bulk edit, bulk editing, multiple edit, multiple products edit, woocommerce, product, products, themes, yit, e-commerce, shop, yith, premium, yithemes
 Requires at least: 3.5.1
 Tested up to: 4.2.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,10 @@ YITH WooCommerce Bulk Product Editing will add a new submenu called "Bulk Produc
 8. Admin view: Bulk editing applied
 
 == Changelog ==
+
+= 1.0.2 =
+
+* Added: Support to WooCommerce 2.4.4
 
 = 1.0.1 =
 
