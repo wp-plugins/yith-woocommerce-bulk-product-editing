@@ -52,7 +52,7 @@ if( !class_exists( 'YITH_WCBEP_Admin' ) ) {
         /**
          * @var string Premium version landing link
          */
-        protected $_premium_landing = '#';
+        protected $_premium_landing = 'https://yithemes.com/themes/plugins/yith-woocommerce-bulk-product-editing/';
 
         /**
          * @var string Quick View panel page
@@ -113,6 +113,9 @@ if( !class_exists( 'YITH_WCBEP_Admin' ) ) {
             add_action('wp_ajax__ajax_fetch_yith_wcbep_list', array($this, 'ajax_fetch_table_callback') );
 
             add_action('admin_init', array($this, 'redirect_to_bulk_edit_page'));
+
+            // Premium Tabs
+            add_action( 'yith_wcbep_premium_tab', array( $this, 'show_premium_tab' ) );
         }
 
         public function ajax_fetch_table_callback() {
@@ -251,7 +254,7 @@ if( !class_exists( 'YITH_WCBEP_Admin' ) ) {
 
             $admin_tabs_free = array(
                 'bulk-edit'      => __( 'Bulk Product Editing', 'yith-wcbep' ),
-                //'premium'       => __( 'Premium Version', 'yith-wcbep' )
+                'premium'       => __( 'Premium Version', 'yith-wcbep' )
                 );
 
             $admin_tabs = apply_filters('yith_wcbep_settings_admin_tabs', $admin_tabs_free);
@@ -332,6 +335,29 @@ if( !class_exists( 'YITH_WCBEP_Admin' ) ) {
                 );
             }
 
+        }
+
+        /**
+         * Show premium landing tab
+         *
+         * @return   void
+         * @since    1.0
+         * @author   Leanza Francescp <leanzafrancesco@gmail.com>
+         */
+        public function show_premium_tab(){
+            $landing = YITH_WCBEP_TEMPLATE_PATH . '/premium.php';
+            file_exists( $landing ) && require( $landing );
+        }
+
+        /**
+         * Get the premium landing uri
+         *
+         * @since   1.0.0
+         * @author   Leanza Francescp <leanzafrancesco@gmail.com>
+         * @return  string The premium landing link
+         */
+        public function get_premium_landing_uri() {
+            return defined( 'YITH_REFER_ID' ) ? $this->_premium_landing . '?refer_id=' . YITH_REFER_ID : $this->_premium_landing . '?refer_id=1030585';
         }
     }
 }
